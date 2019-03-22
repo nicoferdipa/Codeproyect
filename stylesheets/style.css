@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Ubuntu;
+  text-align: left;
+  background-color: white;
+}
+.container{
+
+  background-color: white;
+  margin: 0 auto;
+  margin-left: 15%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  font-family: Lalezar;
+  font-size: 48px;
+  color: #444444;
+  margin: 8px 0px;
+}
+h2{
+  font-family: Ubuntu;
+  font-size: 20px;
+  color: #cccccc;
+  margin-bottom: 32px;
+}
+h3{
+  font-family: Lalezar;
+  font-size: 36px;
+  color: #444444;
+  margin: 8px 0px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15%;
+  margin-left: 15%;
+  border-bottom: 1px solid black;
+
+
+}
+
+li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.card{
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 95%;
+  height: 400px;
+  overflow: hidden;
+  margin-top: 5%;
+  background-image: url(../MamiWorld_Mockup.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 2px 8px rgba(0, 6, 0, 0.2);
+
+}
+.card:hover {
+  box-shadow: 0px 4px 12px rgba(0, 6, 0, 0.3);
+  transition-duration: 0.35s;
+}
+.card2{
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 95%;
+  height: 400px;
+  overflow: hidden;
+  margin-top: 20px;
+  background-image: url(../MamiWorld_Mockup.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 2px 8px rgba(0, 6, 0, 0.2);
+
+}
+.card2:hover {
+  box-shadow: 0px 4px 12px rgba(0, 6, 0, 0.3);
+  transition-duration: 0.35s;
+}
+.card3{
+  display: flex;
+  flex-direction: row;
+  background-color: #0000ff;
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 95%;
+  overflow: hidden;
+  margin-top: 20px;
+  box-shadow: 0px 2px 8px rgba(0, 6, 0, 0.2);
+
+  }
+  .card:hover {
+  box-shadow: 0px 4px 12px rgba(0, 6, 0, 0.3);
+  transition-duration: 0.35s;
+  }
+.card4{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 8px;
+    margin: 0 auto;
+    width: 95%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.caja-txt {
+  padding:80px;
+  max-width: 30%;
+  background-color: rgba(255, 255, 255, 0.55);
+}
+.caja-txt1 {
+  padding: 80px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.caja-txt2 {
+  padding: 20px;
+}
+.caja-txt3  {
+  padding: 20px;
+}
+ul{
+  font-family: Ubuntu;
+  font-size: 12px;
+  color: #666666;
+}
